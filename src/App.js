@@ -18,7 +18,7 @@ class Ss extends Component{
 function App() {
   return (
     <div className="wrapper" >
-      <Ss name="ЛОМАКИН ХУЙ"></Ss>
+      <Ss name="ЛОМАКИН ХУsacsdЙ"></Ss>
     </div>
   );
 }
