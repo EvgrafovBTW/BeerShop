@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from "react";
+
+class Ss extends Component{
+  constructor(props){
+    super();
+    this.name = props.name;
+    setTimeout(500,() =>{
+      this.name = "2"; 
+    })
+  }
+  render(){
+    return(
+      <div >{this.name}</div>
+    )
+  }
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper" >
+      <Ss name="ЛОМАКИН ХУЙ"></Ss>
     </div>
   );
 }
