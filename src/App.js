@@ -1,24 +1,21 @@
-import { Component } from "react";
+//import { Component } from "react";
+import TodoList from "./Todo/TodoList";
 
-class Ss extends Component{
-  constructor(props){
-    super();
-    this.name = props.name;
-    setTimeout(500,() =>{
-      this.name = "2"; 
-    })
-  }
-  render(){
-    return(
-      <div >{this.name}</div>
-    )
-  }
-}
+
+
 
 function App() {
+
+  const todos = [
+    {id: 1, completed: false, title: "купить хуй"},
+    {id: 1, completed: false, title: "купить ,kznm"},
+    {id: 1, completed: false, title: "купить kjvfrbyf"}
+  ]
   return (
     <div className="wrapper" >
-      <Ss name="ЛОМАКИН ХУsacsdЙ"></Ss>
+      <h1>ЛОМАКИН ХУЙ</h1>
+
+      <TodoList todos={todos}/>
     </div>
   );
 }
