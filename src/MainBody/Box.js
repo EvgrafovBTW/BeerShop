@@ -1,5 +1,6 @@
 import React from "react";
-import LeftMenu from "./MenuItem";
+import "./body.css"
+import LeftMenu from "./LeftMenuItem";
 
 function Box() {
     return(

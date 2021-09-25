@@ -1,0 +1,28 @@
+.Box{
+    display: flex;
+    padding-top: 5rem;
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    justify-content: space-between;
+  }
+  
+  .BoxLeft{
+    display: flex;
+    border: 1px solid red;
+    width: 250px;
+    margin-left: 20rem;
+    margin-bottom: 10rem;
+    flex-direction: column;
+  }
+      .MenuItem{
+        border-top: 1px solid orangered;
+        font-size: 24pt;
+      }
+  
+  .BoxRight{
+    display: flex;
+    border: 1px solid red;
+    width: 1000px;
+    margin-right: 10rem;
+  }

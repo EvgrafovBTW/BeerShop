@@ -1,0 +1,30 @@
+.userbar{
+    border: 1px solid blue;
+    background-color: darkgray;
+}
+.pad{
+    display: flex;
+    flex-direction: row;
+    margin-left: 19rem;
+}
+
+.UserBarItem{
+    margin-left: 10px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.logo{
+    margin-left: 19.7rem;
+    width: 150px;
+    height: 150px;
+    background-image: url(lain1.png);
+}
+.logobox{
+    display: flex;
+}
+.titletext{
+    border: 5px solid violet;
+    font-size: 36px;
+    padding-bottom: 10px;
+}

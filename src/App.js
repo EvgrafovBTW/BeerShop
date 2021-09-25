@@ -1,6 +1,7 @@
 //import { Component } from "react";
 //import TodoList from "./Todo/TodoList";
 import Box from "./MainBody/Box";
+import Top from "./MainHead/Shlapa";
 
 
 
@@ -13,7 +14,10 @@ function App() {
   ]*/
   
   return (
-    <Box />
+    <div>
+      <Top />
+      <Box />
+    </div>
   );
 }
 
