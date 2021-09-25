@@ -1,6 +1,6 @@
 //import { Component } from "react";
 //import TodoList from "./Todo/TodoList";
-
+import Box from "./MainBody/Box";
 
 
 
@@ -11,10 +11,9 @@ function App() {
     {id: 1, completed: false, title: "купить ,kznm"},
     {id: 1, completed: false, title: "купить kjvfrbyf"}
   ]*/
+  
   return (
-    <div className="main" >
-      
-    </div>
+    <Box />
   );
 }
 
