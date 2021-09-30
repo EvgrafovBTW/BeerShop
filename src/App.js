@@ -4,6 +4,22 @@ import Box from "./MainBody/Box";
 import Top from "./MainHead/Shlapa";
 
 
+class App extends React.Component{
+  constructor(props){
+    super(props);
+    this.state = {apiResponse:""}
+  }
+
+  callAPI(){
+    fetch("http://localhost:8080/testAPI")
+      .then(res => res.text())
+      .then(res => this.setState({apiResponse: res}))
+  }
+
+  ComponentWillMount(){
+    this.callAPI();
+  }
+}
 
 function App() {
 
