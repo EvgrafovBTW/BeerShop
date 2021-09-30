@@ -24,7 +24,7 @@ class App extends React.Component{
 function App() {
 
   /*const todos = [
-    {id: 1, completed: false, title: "купить хуй"},
+    {id: 1, completed: false, title: "купить хуй"}, z r,ak d hjn uttd
     {id: 1, completed: false, title: "купить ,kznm"},
     {id: 1, completed: false, title: "купить kjvfrbyf"}
   ]*/
